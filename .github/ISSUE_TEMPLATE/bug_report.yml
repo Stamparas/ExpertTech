@@ -1,0 +1,63 @@
+name: Bug report
+description: Report a reproducible issue in a published ExpertTech build.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue. This tracker covers **published ExpertTech builds only**. Please avoid sharing passwords, private file paths, tokens, or personal information in logs.
+  - type: input
+    id: pack_version
+    attributes:
+      label: ExpertTech version
+      description: Enter the exact published pack version or release identifier.
+      placeholder: "e.g. 0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft / NeoForge version
+      placeholder: "Minecraft 1.21.1; NeoForge build ..."
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, crash reports, and screenshots
+      description: Attach relevant evidence. Review logs before sharing to remove private information. For large logs, attach a file or provide a trustworthy paste link.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I checked for an existing report of the same issue.
+          required: true
+        - label: I am reporting an issue with a published ExpertTech build, not a development-only test.
+          required: true
