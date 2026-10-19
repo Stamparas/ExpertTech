@@ -15,6 +15,12 @@ ExpertTech takes inspiration from **Enigmatica 2: Expert**, **Divine Journey 2**
 - **Optional pursuits stay optional.** MineColonies and exploration-focused content are not mandatory for the main technology progression.
 - **Late-game balance matters.** Advanced systems such as ProjectE/EMC are intended for later progression, without trivializing earlier engineering challenges.
 
+## Technology landscape
+
+The current development selection spans **Create, Immersive Engineering, Mekanism, Ender IO, Actually Additions, Industrial Foregoing, RFTools, Oritech**, and many supporting machines and logistics systems. **Applied Energistics 2** and **Refined Storage** are intended to offer complementary, competitive digital-storage paths. Magic and other production systems can progress alongside industrial technologies.
+
+Some desired systems—such as parts of the **Thermal** family—still require compatible ports or testing. This is a **design overview, not a verified installation list**; confirmed availability will be documented in future public releases.
+
 ## Planned progression
 
 The current design uses ten technology ages:
